@@ -1,0 +1,189 @@
+
+/**** typeography ****/
+
+* {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #333950;
+  line-height: 48px;
+  text-align: center;
+  margin: 0;
+}
+
+h4 {
+  font-size: 20px;
+  color: #25293A;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 0;
+}
+
+p {
+  color: #747B95;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: center;
+}
+
+/**** typeography ****/
+
+
+
+/**** components ****/
+
+.hero-btn {
+  padding: 12px 40px;
+  background-color: #5175FF;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 25.6px;
+  cursor: pointer;
+  box-shadow: 0 25px 25px -10px #3f5bc240;
+  text-decoration: none;
+}
+
+.pricing-btn {
+  padding: 12px 40px;
+  background-color: #E4EAFF;
+  border-radius: 999px;
+  color: #5175FF;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 48px;
+  text-decoration: none;
+  width: 31%;
+}
+
+
+
+/**** body ****/
+
+.container {
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 92%;
+}
+
+body {
+  background-color: #FAFAFA;
+  background-image: url('/public/assets/home/bg-pattern-header.svg');
+  background-repeat: no-repeat;
+  background-size: 638px;
+  background-position-x: center;
+  background-position-y: -242px;
+  position: absolute;
+  margin: 0;
+}
+
+/**** body ****/
+
+
+
+/**** header section ****/
+
+header {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+
+/**** header section ****/
+
+
+
+/**** header section ****/
+
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.hero-img {
+  width: 76%;
+}
+
+.hero-text-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-text-content > p {
+  width: 99%;
+  margin-bottom: 24px;
+}
+
+/**** header section ****/
+
+
+
+/**** pricing section ****/
+
+.pricing-section {
+  margin-top: 80px;
+  background-color: #25293A;
+  height: 1217px;
+  background-image: url('/public/assets/home/bg-pattern-footer.svg');
+  background-size: 607px;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
+.pricing-cards {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+/**** tier-card-1 ****/
+
+.tier-card {
+  background-color: #fff;
+  padding: 40px 24px;
+  width: 80%;
+  border-radius: 12px;
+  box-shadow:  0 50px 50px -25px #4b5c9a3d;
+}
+
+.card-body-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-plan-text {
+  text-align: center;
+}
+
+.card-plan-text > h1 {
+  font-size: 56px;
+  margin: 16px 0px 16px;
+}
+
+.card-plan-text > p {
+  color:#25293A;
+  line-height: 25.6px;
+  font-weight: 400;
+  margin: 0px 0px 48px;
+}
+
+.card-text-content > p {
+  margin: 16px 0px 16px;
+}
+
+/**** tier-card-1 ****/
