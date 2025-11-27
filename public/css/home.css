@@ -61,6 +61,18 @@ p {
   width: 31%;
 }
 
+.pricing-btn-1 {
+  padding: 12px 40px;
+  background-color: #fff;
+  border-radius: 999px;
+  color: #5175FF;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 48px;
+  text-decoration: none;
+}
+
 
 
 /**** body ****/
@@ -106,6 +118,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 80px;
+  margin-bottom: 796px;
 }
 
 .hero-img {
@@ -143,9 +156,11 @@ header {
 .pricing-cards {
   position: relative;
   display: flex;
+  bottom: 718px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap: 24px;
 }
 
 
@@ -187,3 +202,77 @@ header {
 }
 
 /**** tier-card-1 ****/
+
+
+
+
+/**** tier-card-2 ****/
+
+.tier-card-1 {
+  padding: 48px 32px;
+  background-color: #5175FF;
+  width: 75%;
+  border-radius: 12px;
+  box-shadow: 0 50px 50px 0 #4b5c9a40;
+}
+
+.card-body-content-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.card-plan-text-1 {
+  text-align: center;
+}
+
+
+.card-plan-text-1 > h1 {
+  color: #fff;
+  font-size: 56px;
+  margin: 16px 0 16px;
+}
+
+
+.card-plan-text-1 > h4 {
+  color: #fff;
+}
+
+.card-plan-text-1 > p {
+  color: #fff;
+  margin: 0px 0px 48px;
+}
+
+.card-text-content-1 > p {
+  color: #fff;
+}
+
+/**** tier-card-2 ****/
+
+
+
+
+/**** tier-card-3 ****/
+
+.tier-card-2 {
+  padding: 40px 24px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow:  0px 50px 50px -25px #4b5c9a3d;
+}
+
+.card-body-content-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-plan-text-2 {
+  text-align: center;
+}
+
+.card-plan-text-2 > h1 {
+  font-size: 56px;
+  margin: 16px 0px 16px;
+}
