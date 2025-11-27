@@ -73,6 +73,18 @@ p {
   text-decoration: none;
 }
 
+.pricing-btn-2 {
+  padding: 12px 40px;
+  background-color:#E4EAFF;
+  border-radius: 999px;
+  color: #5175FF;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 48px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 
 
 /**** body ****/
@@ -258,6 +270,7 @@ header {
 .tier-card-2 {
   padding: 40px 24px;
   background-color: #fff;
+  width: 78%;
   border-radius: 12px;
   box-shadow:  0px 50px 50px -25px #4b5c9a3d;
 }
@@ -274,5 +287,9 @@ header {
 
 .card-plan-text-2 > h1 {
   font-size: 56px;
+  margin: 16px 0px 16px;
+}
+
+.card-text-content-2 {
   margin: 16px 0px 16px;
 }
