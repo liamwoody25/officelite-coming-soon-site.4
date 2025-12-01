@@ -49,6 +49,10 @@ p {
   text-decoration: none;
 }
 
+.hero-btn:hover {
+  opacity: 0.5;
+}
+
 .pricing-btn {
   padding: 12px 40px;
   background-color: #E4EAFF;
@@ -61,6 +65,11 @@ p {
   width: 31%;
 }
 
+.pricing-btn:hover {
+  background-color: #5175FF;
+  color: #fff;
+}
+
 .pricing-btn-1 {
   padding: 12px 40px;
   background-color: #fff;
@@ -71,6 +80,10 @@ p {
   cursor: pointer;
   margin-top: 48px;
   text-decoration: none;
+}
+
+.pricing-btn-1:hover {
+  opacity: 0.8;
 }
 
 .pricing-btn-2 {
