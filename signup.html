@@ -6,13 +6,110 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./public/css/signup.css">
   <title>Officelite coming soon site</title>
 </head>
 <body>
     <div class="container">
       <header>
-          <img src="./public/assets/shared/logo.svg" alt="">
+          <img src="./public/assets/shared/logo.svg" alt="the logo of the website">
       </header>
+
+      <!--- left content section --->
+      <section class="left-content-section">
+          <div class="left-content">
+            <h1>Work smarter. Save time.</h1>
+            <p> Easily manage your projects. Get on the list and receive in-app perks available only to early subscribers. We are moving into final development and getting ready for official launch soon.</p>
+          </div>
+          <div class="countdown-container">
+            <p>Coming <span>4 Nov 2020</span></p>
+          <div class="countdown-timer">
+
+            <!---- timer-card-1 ---->
+              <div class="timer-card">
+                <h1>47</h1>
+                <p>Days</p>
+              </div>
+            <!---- timer-card-1 ---->
+
+
+            <!---- timer-card-2 ---->
+              <div class="timer-card">
+                <h1>07</h1>
+                <p>Hours</p>
+              </div>
+            <!---- timer-card-2 ---->
+
+
+            <!---- timer-card-3 ---->
+              <div class="timer-card">
+                <h1>56</h1>
+                <p>Min</p>
+              </div>
+            <!---- timer-card-3 ---->
+
+
+            <!---- timer-card-4 ---->
+              <div class="timer-card">
+                <h1>14</h1>
+                <p>Sec</p>
+              </div>
+            <!---- timer-card-4 ---->
+            </div>
+          </div>
+      </section>
+      <!--- left content section --->
     </div>
+
+    <!--- form section --->
+      <section class="form-section">
+          <div class="form-container">
+            <form>
+              <label>Name</label>
+              <input type="text" id="name-input">
+
+              <div class="message">
+                <label>Email Address</label>
+                <span class="error-message">not formatted correctly</span>
+                <input type="text" id="Email-input">
+              </div>
+
+            <!---- select-package- ---->
+              <div class="package-container">
+                <div class="package-info">
+                  <label class="package-title">Basic Pack</label>
+                  <span class="sub-title">Free</span>
+                </div>
+
+                  <button type="button" class="package-toggle">
+                    <img class="arrow-down-icon" src="./public/assets/sign-up/icon-arrow-down.svg" alt="arrow-down-icon">
+                  </button>
+
+                <!---- package-options ---->
+                  <div class="package-menu">
+                    <div class="package-text">
+                      <label class="package-title">Pro Pack</label>
+                      <span class="sub-title">$9.99</span>
+                    </div>
+                    <div class="package-sub">
+                      <label class="package-title">Ultimate Pack</label>
+                      <span class="sub-title">$19.99</span>
+                    </div>
+                  </div>
+                <!---- package-options ---->
+              </div>
+            <!---- select-package- ---->
+
+            <label>Phone Number</label>
+            <input type="number" id="number-input">
+
+            <label>Company</label>
+            <input type="text" id="company-input">
+
+            <button type="button" class="form-btn">Get on the list</button>
+
+            </form>
+          </div>
+      </section>
 </body>
 </html>
