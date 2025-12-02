@@ -241,3 +241,96 @@ header {
   display: flex;
   gap: 10px;
 }
+
+/**** form section ****/
+
+
+/**** form section ****/
+
+@media screen and (min-width:768px) {
+  
+  /**** body ****/
+
+  .container {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 90%;
+  }
+
+  /**** body ****/
+
+
+  /**** header section ****/
+
+  header {
+    display: flex;
+    justify-content: left;
+    margin-top: 64px;
+  }
+
+  /**** header section ****/
+
+  
+  /**** left content section ****/
+
+  .left-content-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .left-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 76%;
+  }
+
+  .countdown-container {
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .countdown-timer {
+    display: flex;
+    width: 80%;
+  }
+
+  .timer-card {
+    width: 12%;
+  }
+
+  /**** left content section ****/
+
+
+  /**** form section ****/
+
+  .form-section {
+    margin-top: 141px;
+    height: 473px;
+    background-image: url('/public/assets/sign-up/bg-pattern-side.svg');
+    background-repeat: no-repeat;
+    background-size: 600px;
+  }
+
+  .form-container {
+    position: relative;
+    bottom: 126px;
+    padding: 40px;
+    width: 40%;
+  }
+
+  .package-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .package-sub {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
