@@ -55,6 +55,10 @@ input {
   outline: none;
 }
 
+input:focus {
+  border-bottom: 2px solid #5175FF;
+}
+
 .package-toggle {
   background: transparent;
   display: flex;
@@ -248,6 +252,14 @@ header {
 /**** form section ****/
 
 @media screen and (min-width:768px) {
+
+  /**** typeography ****/
+
+  h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+  }
   
   /**** body ****/
 
@@ -325,7 +337,6 @@ header {
   .package-text {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
   }
 
   .package-sub {
@@ -333,4 +344,110 @@ header {
     flex-wrap: wrap;
   }
 
+  /**** form section ****/
+}
+
+
+/**** media queries desktop ****/
+
+@media screen and (min-width:1440px) {
+  
+  /**** body ****/
+
+  .container {
+    margin-left: 108px;
+    margin-right: 108px;
+    width: 85%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+
+  /**** body ****/
+
+
+
+  /**** header section ****/
+
+  header {
+    margin-top: 80px;
+  }
+
+  /**** header section ****/
+
+
+  /**** left content section ****/
+
+  .left-content-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+
+  .left-content {
+    width: 73%;
+    text-align: left;
+  }
+
+  .left-content > p {
+    text-align: left;
+  }
+
+  .left-content > h1 {
+    margin: 0;
+    text-align: left;
+  }
+
+   /**** left content section ****/
+
+
+  /**** countdown section ****/
+
+    .countdown-container {
+      display: flex;
+      justify-content: left;
+    }
+
+    .countdown-timer {
+      display: flex;
+      justify-content: left;
+    }
+
+    .timer-card {
+      width: 15%;
+    }
+
+   /**** countdown section ****/
+
+
+   /**** form section ****/
+
+   .form-section {
+    display: flex;
+    flex-direction: row;
+    height: 1024px;
+    margin: 0;
+    background-image: url('/public/assets/sign-up/bg-pattern-side.svg');
+    background-size: 1421px;
+    background-position-x: center;
+    background-position-y: bottom;
+   }
+
+   .form-container {
+    position: relative;
+    width: 80%;
+    right: 148px;
+    top: 191px;
+    padding: 40px;
+    height: 409px;
+   }
+
+   .package-container {
+    display: flex;
+    justify-content: space-between;
+   }
+   
 }
